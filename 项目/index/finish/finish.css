@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container .crad
+{
+    position: relative;
+    width: 100%;
+    background: rgb(108, 113, 122);
+}
+.container .crad a
+{
+    text-decoration: none;
+}
+.container .crad a i
+{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+.container .crad .a1
+{
+    position: absolute;
+    right: 5%;
+    top: 20%
+}
+.container .crad .a2
+{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+.container .crad p
+{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2vw;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    user-select: none;
+}
+.container input
+{
+    width: 100%;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    user-select: none;
+    font-size: 20px;
+    outline: none;
+}
+.container .content .task
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #659b82;
+    line-height: 40px;
+    margin: 10px 0;
+    text-align: left;
+    padding-left: 20px;
+    letter-spacing: 0.2vw;
+}
+.container .content .task .delete
+{
+    position: absolute;
+    right: 10vw;
+    top: 0.3vh;
+}
+.container .content .task div i
+{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.container .content a
+{
+    width: 100px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+.container .content p
+{
+    width: 100px;
+    background: #659b82;
+    line-height: 40px;
+    border-radius: 30px;
+    color: white;
+}

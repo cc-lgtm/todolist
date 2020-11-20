@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container
+{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background: #659B82;
+    position: relative;
+}
+.container .hold
+{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+.container .hold a
+{
+    display: block;
+    width: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    background: green;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+.container p
+{
+   width: 100%;
+   height: 50px;
+   line-height: 50px;
+   margin: 20px auto; 
+   background: rgb(108, 113, 122);
+   font-size: 20px;
+   font-weight: 600;
+   letter-spacing: 2vw;
+   user-select: none;
+   margin: 1px auto;
+   text-align: center;
+}
+.container .crad a
+{
+    margin-left: 10%;
+    width: 10%;
+    height: 10%;
+    text-decoration: none;
+}
+.container .crad a i
+{
+    border: 1px solid blueviolet;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    font-size: 100px;
+}
+.container .content
+{
+    text-align: left;
+}
+.container .content .main
+{
+    text-align: left;
+    overflow: hidden;
+}
+.container .content .main p
+{
+    text-align: left;
+    margin-left: 10%;
+    background: none;
+    height: 0px;
+    letter-spacing: normal;
+}
+.container .content .main input
+{
+    width: 55%;
+    height: 5%;
+    outline: none;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px 0;
+    margin-left: 20%;
+}
